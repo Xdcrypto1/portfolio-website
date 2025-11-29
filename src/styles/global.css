@@ -1,0 +1,18 @@
+@import "tailwindcss";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  color: white;
+}
+
+p{
+  font-family: Roboto;
+}
+
+.profile-header, .skill-tags, .About, .project, .contact {
+  background: #1f1d1d;
+  background: linear-gradient(90deg, rgba(31, 29, 29, 1) 0%, rgba(104, 117, 110, 1) 100%, rgba(222, 222, 202, 1) 41%);
+}
