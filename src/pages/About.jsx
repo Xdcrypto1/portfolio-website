@@ -3,7 +3,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 function About() {
   const handleResumeDownload = () => {
-        window.location.href = "http://localhost:5000/resume";
+        window.location.href = "https://portfolio-website-6fs3.onrender.com/resume";
     };
   return (
     <div className="About p-4 border-gray-200 rounded-lg shadow-md text-black w-5/6 grid md:grid-cols-2 gap-6 mx-auto my-10" >
