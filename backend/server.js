@@ -43,7 +43,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 app.get("/resume", (req, res) => {
-    const filePath = path.join(__dirname, "backend/resume.pdf");
+    const filePath = path.join(__dirname, "backend/Resume.pdf");
     res.download(filePath);
 });
 
